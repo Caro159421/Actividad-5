@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  background: #ccc;
+  font-family: arial;
+  display: flex;
+}
+
+#container{
+  width: 1070px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eafbb9;
+  text-align: justify;
+}
+
+#container p{
+ position: relative;
+  left: 50px;
+  padding-top: 50px;
+  color: #fff;
+}
+
+
+/*INICIO HEADER */
+
+header{
+width: 1070px;
+overflow: hidden;
+/*background: #FFF;*/
+color: #000000;
+
+}
+
+header, #slider{
+  background: rgb(16, 154, 92);
+  width: 1070px;
+}
+
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo{
+  color: #f2f2f2;
+  font-size: 25px;
+  line-height: 190px;
+  float: left;
+  font-weight: bold;
+  background-image: url(../img/Inteligencia_Emocional.jpg);
+  width: 260px;
+  height: 200px;
+  z-index: 400;
+  margin-left: 20; 
+  margin-right: auto;
+}
+
+header nav{
+  line-height: 200px;
+  float: right;
+}
+
+header nav a{
+  display:inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition:all 500ms ease ;
+  -o-transition:all 500ms ease ;
+  transition:all 500ms ease ;
+}
+
+header nav a:hover{
+  background: #1ab955;
+  border-radius: 20px;
+  line-height: left;
+}
+
+
+.header2{
+  position: fixed;
+  height: 100px;
+  z-index: 1;
+}
+
+.header2 .logo{
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url(../img/Inteligencia_Emocional2.jpg);
+  width: 101px;
+  height: 102px;
+  z-index: 400;
+
+}
+.header2 nav{
+  line-height: 100px;
+}
+
+/* INICIO DE RESPONSIVE */
+
+@media screen and  (max-width:950px){
+  header .logo,
+  header nav{
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  /* FIN DEL RESPONSIVE */
+
+  .header2{
+    height: auto;
+  }
+  .header2 .logo,
+  .header2 nav{
+    line-height: 50px;
+  }
+}
+
+
+/* INICIO DEL TITULO PREVENCION */
+
+h2{
+   border-left: 6px solid rgb(16, 154, 92);
+   background-color: rgba(16, 154, 92, 0.1);
+   color: rgb(26, 117, 76);
+   text-align: center;
+   margin-left: 0px;
+   border-radius: 5px 5px 0 0;
+   padding: 20px;            
+}
+
+/* FIN DEL TITULO PREVENCION */
+
+
+/* INICIO DEL FOOTER */
+
+footer{
+  width: 1070px;
+  height: 504px;
+  background-image: url(../img/footerpequeño.png);
+  margin: 0 auto;
+  position: relative ;
+  top: -15px;
+  box-sizing: border-box;
+  z-index: 1;
+  background-color:#eafbb9;
+  margin-top: 30px;
+
+}
+
+#pie img{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  top: -50px;
+  position: relative;
+  left: 600px;
+}
+
+#pie p{
+  position: relative;
+  left: 50px;
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+/* INICIO DE LAS REDES SOCIALES EN EL FOOTER */
+
+.siguenos{
+  width: 10px;
+  height: 15px;
+  z-index:200px ;
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(16, 154, 92, 0.1);
+  font-weight: bold;
+  position: relative;
+  left: 500px;
+  top: -20px;
+}
+
+/* FIN DE LAS REDES SOCIALES EN EL FOOTER */
+
+/* INICIO DEL FORMULARIO EN EL FOOTER */
+
+#formulario{
+  width: 450px;
+  height: 400px;
+  padding-top: -10px;
+  padding-bottom:10px;
+  position: relative;
+  left: 520px;
+}
+
+form{
+  width: 400px;
+  margin: 10px auto;
+  background-color:rgba(34, 37, 35, 0.79);
+  padding: 0px;
+  border-radius: 8px;
+  position: relative;
+  
+}
+
+.titulo_formulario{
+  text-align: CENTER;
+  color: #fff;
+  font-weight:bold;
+}
+
+/* FIN DEL FORMULARIO EN EL FOOTER */
+
+/* FIN DEL FOOTER */
